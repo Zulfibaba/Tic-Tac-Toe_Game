@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <h2 v-if="winner" class="text-6xl font-bold mb-8">Player '{{ winner }}' Wins 🏆</h2>
+    <h2 v-if="winner" class="max-md:text-4xl text-6xl font-bold mb-8">Player '{{ winner }}' Wins 🏆</h2>
     <button @click="ResetGame" class="px-4 py-2 bg-pink-500 rounded 
     uppercase font-bold hover:bg-pink-600 duration-300">Reset Game</button>
   </main>
